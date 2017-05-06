@@ -2,6 +2,8 @@
 .DS_Store
 node_modules/
 *.log
+app/*.js
+app/*.map
 
 # Ignore Visual Studio Code folder & files
 .vscode/*
