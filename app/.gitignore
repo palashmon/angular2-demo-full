@@ -1,3 +1,4 @@
 # Ignore ts compiled files
-*
+*.js
+*.map
 !.gitignore
