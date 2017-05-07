@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'favorite',
@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 })
 
 export class FavoriteComponent {
-    isFavorite = false;
+    @Input() isFavorite = false;
 
     onClick(){
         this.isFavorite = !this.isFavorite;
