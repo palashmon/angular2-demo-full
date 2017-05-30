@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { FavoriteComponent } from './favorite.components';
+import { LikeComponent } from './like.component';
+import { VoterComponent } from './voter.component';
 import { CourseService } from './course.service';
 
 @NgModule({
@@ -10,7 +12,9 @@ import { CourseService } from './course.service';
   declarations: [
     AppComponent,
     CoursesComponent,
-    FavoriteComponent
+    FavoriteComponent,
+		LikeComponent,
+		VoterComponent
   ],
   bootstrap: [AppComponent],
   providers: [CourseService]
